@@ -9,6 +9,6 @@ Package.on_use(function (api, where) {
   api.use('crossfilter', 'client');
 
   api.add_files('lib/dc.js', 'client');
-  api.add_files('lib/dc.css', 'client');
+  //api.add_files('lib/dc.css', 'client'); // Leave out so you can customize
   api.export('dc', 'client');
 });
