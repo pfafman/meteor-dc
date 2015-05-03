@@ -1,7 +1,7 @@
 dc 2
 ====
 
-[DC 2.0.0-dev](https://github.com/dc-js/dc.js) packaged for [Meteor](https://www.meteor.com) 1.0+
+[DC 2.1.0-dev](https://github.com/dc-js/dc.js) packaged for [Meteor](https://www.meteor.com) 1.0+
 
 Packaged by [Tim Pfafman](https://github.com/pfafman/meteor-dc)
 
