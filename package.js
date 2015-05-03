@@ -1,15 +1,15 @@
 Package.describe({
+  name: "pfafman:dc",
   summary: "Fast n-dimensional filtering and grouping of records.",
-  version: "2.0.0",
+  version: "2.1.0_dev",
   git: "https://github.com/pfafman/meteor-dc.git"
 });
 
-//Npm.depends({ "dc": "0.1.0" });
 
 Package.onUse(function (api, where) {
   api.versionsFrom("METEOR@1.0");
 
-  api.use('d3', 'client');
+  api.use('d3js:d3', 'client');
   api.use('pfafman:crossfilter', 'client');
 
   api.addFiles('lib/dc.js', 'client');
