@@ -1,7 +1,7 @@
 Package.describe({
   name: "pfafman:dc",
   summary: "Fast n-dimensional filtering and grouping of records.",
-  version: "2.1.0_3",
+  version: "2.1.0_4",
   git: "https://github.com/pfafman/meteor-dc.git"
 });
 
