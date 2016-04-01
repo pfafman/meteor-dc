@@ -5,12 +5,15 @@ Package.describe({
   git: "https://github.com/pfafman/meteor-dc.git"
 });
 
+Npm.depends({
+  d3: "3.5.16"
+});
 
 Package.onUse(function (api) {
   api.versionsFrom("METEOR@1.0");
+  api.use("modules");
+  api.use('pfafman:crossfilter', ['client', 'server']);
 
-  api.use('d3js:d3', 'client');
-  api.use('pfafman:crossfilter', 'client');
 
   api.addFiles(
     [
@@ -21,5 +24,5 @@ Package.onUse(function (api) {
     , 'client'
   );
 
-  api.export('dc', 'client');
+  api.export('dc', ['client', 'server']);
 });
