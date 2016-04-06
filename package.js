@@ -7,7 +7,7 @@ Package.describe({
 
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.0.0');
+  api.versionsFrom('1.0');
 
   api.use('d3js:d3', 'client');
   api.use('pfafman:crossfilter@1.4.0', 'client');
