@@ -21,4 +21,5 @@ Package.onUse(function (api) {
     , 'client'
   );
 
+  api.export('dc', 'client');
 });
